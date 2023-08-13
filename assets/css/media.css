@@ -1,0 +1,379 @@
+@media screen and (max-width:1300px) {
+    .about__item-img{
+        margin-left: -30px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .hero__title h1{
+        font-size:  80px;
+    }
+}
+@media screen and (max-width:1050px) {
+    .about__actions .btn{
+        padding: 8px 16px;
+        font-size: 15px;
+    }
+    .gallery__content{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery__item-content{
+        gap: 30px;
+    }
+    .gallery__item-left-part{
+        width: 92%;
+        margin-left: -20px;
+    }
+    .gallery__item-right-part{
+        width: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .application__text{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:940px) {
+    .hero__title h1{
+        font-size:  70px;
+    }
+    .product__poster-img{
+        padding: 40px 50px;
+    }
+        .product__posters-mini{
+            grid-template-columns: 70%;
+
+        justify-content: center;
+        align-content: center;
+        gap: 40px ;
+    }
+    .product__poster-mini-info h2{
+        font-size: 30px;
+    }
+    .product__poster-mini-info a{
+        font-size: 22px;
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    .header__menu-list{
+        position: fixed;
+        top: 0%;
+        left: -100%;
+        bottom: 0;
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg-card);
+        transition:  0.3s;
+        -webkit-transition:  0.3s;
+        -moz-transition:  0.3s;
+        -ms-transition:  0.3s;
+        -o-transition:  0.3s;
+        backdrop-filter: blur(8px);
+        background-color: rgba(252,241,235, 0.5);
+        -webkit-box-shadow: 2px 2px 26px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 2px 2px 26px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 2px 2px 26px 0px rgba(34, 60, 80, 0.2);
+    }
+    .header__menu-item a{
+        font-size: 29px;
+        font-weight: 500;
+        color: var(--color-main-gray-dark);
+    }
+    #navbar-close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 45px;
+        color: var(--color-main-gray-dark);
+    }
+    .hero__title h1{
+        font-size: 65px;
+        line-height: 80px;
+    } 
+}
+@media screen and (max-width:860px) {
+    .about__content{
+        display: grid;
+        grid-template-columns: 55% 45%;
+    }
+    .subscribe__items{
+        display: grid;
+        grid-template-columns: 90%;
+        align-content: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .subscribe__item-title h1{
+        font-size: 40px;
+        line-height: normal;
+    }
+    .subscribe__item-img{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .subscribe__item-img img{
+        width: 100%;
+    }
+    .footer__columns{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer__item-product{
+        margin-left: 0px;
+    }
+    .footer__item-privacy{
+        text-align: center;
+    }
+    .right{
+        text-align: center;
+    }
+    .testimonial__strelka{
+        width: 40px;
+        position: absolute;
+        bottom: 50px;
+        right: 0%;
+
+    }
+}
+@media screen and (max-width:800px) {
+    .choice__cards{
+        grid-template-columns: 70%;
+        gap: 70px;
+        justify-content: center;
+    }
+    .choice__card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .choice__card h1{
+        font-size: 30px;
+    }
+    .choice__card h3{
+        font-size: 20px;
+        
+    }
+    .choice__card a{
+        font-size: 20px;
+    }
+    .choice__feed{
+        width: 100px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .info{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .product__posters-mini{
+        grid-template-columns: 80%;
+    
+    }
+    .product__poster-mini-img{ 
+        background-size: contain;
+    }
+}
+@media screen and (max-width:767px) {
+    .hero__content{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .about__content{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+     .hero__title h1{
+        font-size: 110px;
+        line-height: normal;
+    } 
+    .hero__item-img{
+        width: 80%;
+    }
+    .hero__btn{
+        padding: 18px 37px;
+        font-size: 23px;
+    }
+    .about__item-info{
+        width: 80%;
+    }
+    .about__item-info h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .about__item-info a{    
+        font-size: 25px;
+    }
+    .about__actions .btn{
+        padding: 14px 30px;
+    }
+    .about__actions{
+        margin-bottom: 20px;
+    }
+    .application__input input{
+        padding: 20px 25px;
+        background: #FFF;   
+        outline: none;
+        border: none;
+        width: 300px;
+        border-top-left-radius: 18px;
+        border-bottom-left-radius: 18px;
+        font-size: 20px;
+    }
+    .application__input button{
+        background-color: var(--color-main-orange-400);
+        border: none;
+        color: white;
+        padding: 20px 25px;
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:750px) {
+    
+    .product__posters{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .product__poster-info a{
+        font-size: 25px;
+    }
+}   
+@media screen and (max-width:650px) {
+    .hero__title h1{
+        font-size: 90px;
+        line-height: 100px;
+    } 
+    .choice__cards{
+        grid-template-columns: 90%;
+    }
+    .product__posters-mini{
+        grid-template-columns: 90%;
+    }
+    .subscribe__item-img{
+        width: 100%;
+    }
+    .subscribe__item-title h1{
+        font-size: 27px;
+    }
+} 
+@media screen and (max-width:550px) {
+    .choice__cards{
+        grid-template-columns: 100%;
+    }
+    .hero__title h1{
+        font-size: 80px;
+        line-height: normal;
+    } 
+    .hero__btn{
+        padding: 13px 33px;
+        font-size: 20px;
+    }
+    .about__item-info{
+        width: 100%;
+    }
+    .about__item-img{   
+        margin-left: 0px;
+        width: 100%;
+    }
+    .about__item-info h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .application__input input{
+        padding: 18px 20px;
+        background: #FFF;   
+        outline: none;
+        border: none;
+        width: 250px;
+        border-top-left-radius: 18px;
+        border-bottom-left-radius: 18px;
+        font-size: 20px;
+    }
+    .application__input button{
+        background-color: var(--color-main-orange-400);
+        border: none;
+        color: white;
+        padding: 18px 20px;
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        font-size: 18px;
+    }
+    .application{
+        padding-top: 50px;
+    }
+    .application__content{
+        padding: 20px;
+        
+    }
+}
+@media screen and (max-width:450px) {
+    .about__actions .btn{
+        padding: 10px 20px;
+    }
+    .testimonial__item-text p{
+        font-size: 14px
+    }
+}
+@media screen and (max-width:400px) {
+    .application__input input{
+        padding: 15px 17px;
+        background: #FFF;   
+        outline: none;
+        border: none;
+        width: 220px;
+        border-top-left-radius: 18px;
+        border-bottom-left-radius: 18px;
+        font-size: 20px;
+    }
+    .application__input button{
+        background-color: var(--color-main-orange-400);
+        border: none;
+        color: white;
+        padding: 15px 17px;
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:350px) {
+    .application__input input{
+        padding: 12px 15px;
+        background: #FFF;   
+        outline: none;
+        border: none;
+        width: 180px;
+        border-top-left-radius: 18px;
+        border-bottom-left-radius: 18px;
+        font-size: 20px;
+    }
+    .application__input button{
+        background-color: var(--color-main-orange-400);
+        border: none;
+        color: white;
+        padding: 12px 15px;
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,25 @@
+:root{
+    --container: 1180px;
+    --container-space: 20px;
+    
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Poppins', sans-serif;
+
+    --color-main-gray-light: #746D68; 
+    --color-main-gray-dark: #170C04; 
+
+    --color-main-orange-100: #FCF2EB;;
+    --color-main-orange-400: #E27B3A;
+
+    --color-main-pink-100: #F9F3F7;
+    --color-main-pink-200: #F9E8ED;
+    --color-main-pink-300: #F9E8ED;
+    --color-main-pink-400: #F4E7E6;
+    --color-main-pink-500: #F2E6E9;
+
+    --color-main-blue-100: #E9ECF2;
+    --color-main-blue-600: #2E96FF;
+
+    --weight-main-medium: 400;
+    --weight-main-bold: 500;
+}
